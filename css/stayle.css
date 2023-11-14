@@ -11,6 +11,7 @@ ul {
 }
 body {
     color: var(--color-primery-dark);
+    font-family: Poppins, sans-serif;
 }
 
 /* Button */
@@ -43,6 +44,7 @@ body {
 /* Hero section */
 .hero-title {
     color: var(--color-primery-light);
+    text-align: center;
 }
 
 .hero-title .accent{
@@ -58,3 +60,9 @@ body {
 .section-title .accent{
     color: var(--color-brand-light);
 } 
+
+/* Tradition section */
+.tradition-text span {
+    color: var(--color-brand-light);
+    text-transform: uppercase;
+}
