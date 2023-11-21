@@ -194,6 +194,12 @@ address {
 
 .traditions-container {
   display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.traditions-content {
+  max-width: 710px;
 }
 
 .traditions-title {
@@ -209,6 +215,10 @@ address {
   text-transform: uppercase;
 }
 
+.tradition-text.limited {
+  max-width: 340px;
+}
+
 /* Chef section */
 .chefs-title {
   margin-bottom: 80px;
@@ -221,6 +231,22 @@ address {
 }
 
 /* Formats section */
+.formats-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.formats-item {
+  flex-basis: calc((100% - 40px) / 3);
+}
+
+.format-card {
+  padding: 24px;
+  border: 1px solid lightgray; /* remove */
+  border-radius: 16px;
+}
+
 .formats-title {
   margin-bottom: 80px;
 }
