@@ -144,6 +144,10 @@ address {
 /* Hero section */
 .hero-section {
   padding: 272px 0;
+  background-image: url('../images/cuple-in-bakery.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .hero-title {
